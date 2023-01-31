@@ -1,3 +1,4 @@
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400display=swap');
 
     /* Elements principaux de la page */
     body{
@@ -34,25 +35,22 @@
         margin-bottom: 8px;
     }
 
-    nav ul{
-        list-style-type: none;
+    nav{
         display: flex;
     }
 
     nav a{
         font-size: 16px;
+        box-sizing: border-box;
         padding: 47px 35px 50px 35px;
-        border-top: rgba(255, 255, 255, 0) solid 3px;
+        text-decoration: none;
+        color: black;
+        border-top: rgba(255, 255, 0, 0) solid 3px;
     }
 
     nav a:hover{
         color: #0065fc;
-        border-top:#0065fc solid;   
-    }
-
-    nav a{
-        text-decoration: none;
-        color: black;
+        border-top:#0065fc solid 3px;  
     }
 
     h1{
@@ -422,11 +420,8 @@
             width: 100%;
         }
         
-        nav ul{
-            padding: 0;
-        }
-
-        nav li{
+       
+        nav a{
             width: 50%;
             border-bottom: 3px #F2F2F2 solid;
             padding: 25px 0;
@@ -434,14 +429,11 @@
             justify-content: center;
         }
     
-        nav a:hover, nav a, footer{
-            border-top: none;
-            padding: 0
-        }
     
-        nav li:hover{
+        nav a:hover{
             color: #0065fc;
-            border-bottom:#0065fc solid; 
+            border-bottom:#0065fc solid 3px; 
+            border-top: none;
         }
 
         .infos h1, .infos p,.info p, .filtre h3{
