@@ -1,14 +1,15 @@
+
     @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400display=swap');
 
     /* Elements principaux de la page */
     body{
         max-width: 1400px;
         margin:auto;
-        font-family: 'Raleway';
     }
 
     *{
         scroll-behavior: smooth;
+        font-family: 'Raleway',sans-serif;
     }
 
     main, footer, header{
@@ -85,7 +86,7 @@
     .loupe{
         display: none;
     }
-
+    
     #site-search{
         width: 232px;
         height: 49px;
@@ -497,6 +498,10 @@
 
         .titre_marseille{
             margin-top: 0;
+        }
+
+        .conteneur p{
+            margin-bottom: 5px;
         }
 
         .cartes, .cartes_populaire, .cartes_activite
